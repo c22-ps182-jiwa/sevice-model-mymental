@@ -2,6 +2,9 @@
 # https://hub.docker.com/_/python
 FROM python:3.10-slim
 
+ENV PORT 8080
+ENV HOST 0.0.0.0
+
 # Copy local code to the container image.
 ENV APP_HOME /app
 WORKDIR $APP_HOME
