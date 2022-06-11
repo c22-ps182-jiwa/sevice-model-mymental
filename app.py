@@ -235,7 +235,7 @@ def journal_predict():
         except KeyError:
             data['status'] = 'error'
 
-    return data
+        return data
 
 
 def get_prediction_text(text):
